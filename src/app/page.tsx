@@ -1,8 +1,14 @@
+'use client'
+
 import Image from "next/image";
-import styles from "./page.module.scss";
+import style from "./page.module.scss";
+
+import { Header } from '@/Components/Header'
 
 export default function Home() {
   return (
-    <></>
+    <>
+      <Header />
+    </>
   );
 }

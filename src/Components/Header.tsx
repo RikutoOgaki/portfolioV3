@@ -56,6 +56,8 @@ export function Header() {
         }
     }, [])
 
+    // ここまで
+
     return (
         <>
             <header className={`${style.headerWrap} ${hidden ? style.headerWrapHidden : ''}`}>

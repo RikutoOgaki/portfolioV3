@@ -8,6 +8,7 @@
     right: 0;
     margin: 0 auto;
     border-radius: 10px;
+    transition: top .3s;
 
     .navigationBox {
         width: 100%;
@@ -28,4 +29,8 @@
             }
         }
     }
+}
+
+.headerWrapHidden {
+    top: -5rem;
 }

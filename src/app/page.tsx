@@ -1,6 +1,6 @@
 'use client'
 
-import style from "./page.module.scss";
+import style from '@/styles/page.module.scss'
 
 import { Header } from '@/Components/Header'
 import { MyName } from '@/Components/MyName'

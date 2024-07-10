@@ -16,7 +16,7 @@ export function Header() {
         'WORKS'
     ])
 
-    // Scrollが発生すると消え、止めると表示される
+    // Scrollが発生すると消え、止めると表示される ここから
     const [hidden, setHidden] = useState(false)
     const [lastScrollY, setLastScrollY] = useState(0)
     let timeoutId: ReturnType<typeof setTimeout> | undefined
@@ -55,7 +55,6 @@ export function Header() {
             }
         }
     }, [])
-
     // ここまで
 
     return (

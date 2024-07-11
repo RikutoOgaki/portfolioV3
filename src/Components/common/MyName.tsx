@@ -1,6 +1,6 @@
 'use client'
 
-import style from '@/styles/Components/myname.module.scss'
+import style from '@/styles/Components/common/myname.module.scss'
 import { FaXTwitter, FaGithub, FaInstagram } from 'react-icons/fa6'
 
 export function MyName() {

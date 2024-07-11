@@ -1,6 +1,6 @@
 'use cilent'
 
-import style from '@/styles/Components/about.module.scss'
+import style from '@/styles/Components/common/about.module.scss'
 
 export function About() {
     return (

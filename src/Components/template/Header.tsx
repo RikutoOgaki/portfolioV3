@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import style from '@/styles/Components/header.module.scss'
+import style from '@/styles/Components/template/header.module.scss'
 
 // 型宣言
 type headerData = Array<string>
@@ -63,7 +63,9 @@ export function Header() {
                 <nav className={style.navigationBox}>
                     <ul className={style.navigationSubBox}>
                         {headerTags.map((v, idx) =>
-                            <li key={idx} className={style.navigationItem}>{v}</li>
+                            <li key={idx} className={style.navigationItem}>
+                                <a href="">{v}</a>
+                            </li>
                         )}
                     </ul>
                 </nav>

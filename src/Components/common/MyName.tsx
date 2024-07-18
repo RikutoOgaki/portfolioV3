@@ -8,7 +8,7 @@ export function MyName() {
         <>
             <div className={style.myNameWrap}>
                 <h1 className={style.title}>RikutoOgaki</h1>
-                <p className={style.text}>Full Stack Engineer</p>
+                <p className={style.text}>Front End Engineer</p>
                 <div className={style.iconBox}>
                     <FaXTwitter className={style.icon} onClick={() => location.href = 'https://twitter.com/Rikuto_Ogaki'} />
                     <FaGithub className={style.icon} onClick={() => location.href = 'https://github.com/RikutoOgaki'} />

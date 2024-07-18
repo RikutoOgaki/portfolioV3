@@ -38,35 +38,35 @@ export default function Skills() {
                     <div className={style.skillsItems}>
                         <h4 className={style.skillTitle}>UseSkills</h4>
                         <div className={style.iconBox}>
-                            <FaHtml5 />
-                            <FaCss3 />
-                            <FaSass />
-                            <SiJavascript />
-                            <SiTypescript />
-                            <FaReact />
-                            <SiNextdotjs />
+                            <FaHtml5 className={style.icon} />
+                            <FaCss3 className={style.icon} />
+                            <FaSass className={style.icon} />
+                            <SiJavascript className={style.icon} />
+                            <SiTypescript className={style.icon} />
+                            <FaReact className={style.icon} />
+                            <SiNextdotjs className={style.icon} />
                         </div>
                     </div>
                     <div className={style.skillsItems}>
                         <h4 className={style.skillTitle}>StudySkills</h4>
                         <div className={style.iconBox}>
-                            <FaPhp />
-                            <FaPython />
-                            <SiMysql />
-                            <SiPostgresql />
-                            <FaRust />
-                            <SiFlutter />
-                            <FaDocker />
+                            <FaPhp className={style.icon} />
+                            <FaPython className={style.icon} />
+                            <SiMysql className={style.icon} />
+                            <SiPostgresql className={style.icon} />
+                            <FaRust className={style.icon} />
+                            <SiFlutter className={style.icon} />
+                            <FaDocker className={style.icon} />
                         </div>
                     </div>
                     <div className={style.skillsItems}>
                         <h4 className={style.skillTitle}>UseTools</h4>
                         <div className={style.iconBox}>
-                            <SiVisualstudiocode />
-                            <FaSlack />
-                            <SiNotion />
-                            <FaFigma />
-                            <FaDiscord />
+                            <SiVisualstudiocode className={style.icon} />
+                            <FaSlack className={style.icon} />
+                            <SiNotion className={style.icon} />
+                            <FaFigma className={style.icon} />
+                            <FaDiscord className={style.icon} />
                         </div>
                     </div>
                 </div>
